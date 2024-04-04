@@ -1,7 +1,7 @@
 inputs:
   version:
     required: true
-jobs:
+runs:
   steps:
     - name: Publish code coverage report
       uses: actions/upload-artifact@v4.3.1

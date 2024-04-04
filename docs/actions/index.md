@@ -26,9 +26,12 @@ Build a .NET solution running the following steps:
 - Publish code quality data
 
 **Input parameters:**
-| Name    | Description                  | Required | Default |
-|---------|------------------------------|:--------:|:-------:|
-| version | version of artifacts         | true     | N/A     |
+| Name                | Description                  | Required | Default |
+|---------------------|------------------------------|:--------:|:-------:|
+| sonar_host_url      | sonar server url             | true     | N/A     |
+| sonar_project_key   | sonar project unique key     | true     | N/A     |
+| sonar_project_token | sonar project token          | true     | N/A     |
+| version             | version of artifacts         | true     | N/A     |
 
 ## NuGet
 ### Build NuGet packages
